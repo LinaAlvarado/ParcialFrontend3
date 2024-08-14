@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({info}) => {
   return (
-    <div>
-      Hola, soy una tarjeta
+    <div className='card'>
+      ¡Gracias por dejarnos tu sugerencia {info.name}! Amamos el sabor de {info.flavor} 🍦
     </div>
   )
 }
